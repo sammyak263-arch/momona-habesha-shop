@@ -1,56 +1,149 @@
-
-
-
-  
-  
-  
-  
-
-
-
-  
-Momona Habesha Traditional Shop
-
-  
-Eritrean & Ethiopian Traditional Clothing and Goods
-
-
-
-  About
-  Products
-  Location
-  Contact
-
-
-
-  
-About Us
-
-  
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momona Habesha Traditional Shop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f7f7;
+      color: #222;
+    }
+    header {
+      background: #7a1f1f;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #111;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #7a1f1f;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: #f0f0f0;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .contact-buttons button {
+      background-color: #7a1f1f;
+      color: white;
+      padding: 12px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .contact-buttons button:hover {
+      background-color: #9c2a2a;
+    }
+    .map {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body><header>
+  <h1>Momona Habesha Traditional Shop</h1>
+  <p>Eritrean & Ethiopian Traditional Clothing and Goods</p>
+</header><nav>
+  <a href="#about">About</a>
+  <a href="#products">Products</a>
+  <a href="#location">Location</a>
+  <a href="#contact">Contact</a>
+</nav><section id="about">
+  <h2>About Us</h2>
+  <p>
     Momona Habesha Traditional Shop Ltd is a community-based shop offering
     authentic Eritrean and Ethiopian traditional clothing, textiles, and cultural goods.
     We aim to preserve Habesha culture while serving our community in Manchester.
-  
-
-
-
-
-
-  
-Our Products
-
-  
-
-    
-Traditional Dresses (Zurya)
-
-    
-Men’s Traditional Wear
-
-    
-Shawls & Scarves (Netela)
-
-    
-Cultural Accessories
-
+  </p>
+</section><section id="products">
+  <h2>Our Products</h2>
+  <div class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Traditional+Dress" alt="Traditional Dress" />
+      <p>Traditional Dresses (Zurya)</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Mens+Wear" alt="Men's Wear" />
+      <p>Men’s Traditional Wear</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Shawls" alt="Shawls" />
+      <p>Shawls & Scarves (Netela)</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Accessories" alt="Accessories" />
+      <p>Cultural Accessories</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150?text=Textiles" alt="Textiles" />
+      <p>Habesha Textiles</p>
+    </div>
+  </div>
+</section><section id="location">
+  <h2>Our Location</h2>
+  <p>
+    📍 Sherborne Street, Manchester<br />
+    Postcode: <strong>M3 1FE</strong>
+  </p>
+  <iframe 
+    class="map"
+    src="https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_API_KEY&q=M3+1FE,Manchester"
+    allowfullscreen>
+  </iframe>
+</section><section id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    Opening Hours: 12 pm – 8 pm daily
+  </p>
+  <div class="contact-buttons">
+    <button onclick="window.location.href='tel:07983119329'">Call Us</button>
+    <button onclick="window.location.href='https://wa.me/447983119329'">WhatsApp Us</button>
+  </div>
+</section><footer>
+  <p>© 2026 Momona Habesha Traditional Shop Ltd. All rights reserved.</p>
+</footer></body>
+  </html>
